@@ -23,7 +23,7 @@ function Service() {
               <a
                 href="/"
                 aria-label=""
-                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-black-600 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >
                 Learn more
               </a>
@@ -47,7 +47,7 @@ function Service() {
                 </svg>
               </div>
               <h6 className="mb-2 font-semibold leading-5">The deep ocean</h6>
-              <p className="text-sm text-gray-700">
+              <p className="text-sm text-gray-700 ">
                 A flower in my garden, a mystery in my panties. Heart attack
                 never stopped old Big Bear. I didnt even know we were calling
                 him Big Bear.

@@ -1,0 +1,7 @@
+a.active {
+  color: rgb(193, 18, 241);
+  transition: 0.6ms;
+}
+a.active:hover {
+  color: rgb(151, 9, 190);
+}

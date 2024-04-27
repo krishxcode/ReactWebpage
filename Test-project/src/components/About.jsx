@@ -10,7 +10,8 @@ function About() {
               </p>
             </div>
             <p className="text-3xl font-bold text-gray-900 md:text-5xl md:leading-10">
-              Made with love, right here in India
+              Made with <span className="dark:text-violet-600">love</span>,
+              right here in <span className="dark:text-violet-600">India</span>
             </p>
             <p className="max-w-4xl text-base text-gray-600 md:text-xl">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
@@ -43,7 +44,7 @@ function About() {
                 <circle cx={12} cy={10} r={3} />
               </svg>
               <p className="w-full text-xl font-semibold  text-gray-900">
-                Bengaluru office
+                <span className="dark:text-violet-600">Bengaluru office</span>
               </p>
               <p className="w-full text-base text-gray-700">
                 Mon-Sat 9am to 5pm.
@@ -69,7 +70,7 @@ function About() {
                 <circle cx={12} cy={10} r={3} />
               </svg>
               <p className="w-full text-xl font-semibold  text-gray-900">
-                Head office
+                <span className="dark:text-violet-600">Head office</span>
               </p>
               <p className="w-full text-base text-gray-700">
                 Mon-Sat 9am to 5pm.
@@ -95,7 +96,7 @@ function About() {
                 <circle cx={12} cy={10} r={3} />
               </svg>
               <p className="w-full text-xl font-semibold  text-gray-900">
-                Karnataka office
+                <span className="dark:text-violet-600"> Karnataka office</span>
               </p>
               <p className="w-full text-base text-gray-700">
                 Mon-Sat 9am to 5pm.
@@ -115,7 +116,7 @@ function About() {
                 </p>
               </div>
               <p className="text-3xl font-bold text-gray-900 md:text-4xl">
-                Meet our team
+                Meet our <span className="dark:text-violet-600">team</span>
               </p>
               <p className="max-w-4xl text-base text-gray-700 md:text-xl">
                 Our philosophy is simple — hire a team of diverse, passionate
@@ -251,11 +252,11 @@ function About() {
                 Join Now
               </button>
             </div>
-            <div className="md:mt-o mt-10 w-full">
+            <div className="md:mt-o mt-10 w-full ">
               <img
-                src="https://images.unsplash.com/photo-1605165566807-508fb529cf3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
+                src="image\speed-optimization.png"
                 alt="Getting Started"
-                className="rounded-lg"
+                className="rounded-lg "
               />
             </div>
           </div>

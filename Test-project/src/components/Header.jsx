@@ -21,7 +21,9 @@ function Header() {
               </svg>
             </span>
             <span className="font-bold">
-              <span className="dark:text-violet-600">Easy2Code</span>
+              <span className="dark:text-violet-600 text-m font-bold">
+                Easy2Code
+              </span>
             </span>
           </div>
           <div className="hidden lg:block">
@@ -29,7 +31,7 @@ function Header() {
               <li>
                 <NavLink
                   to="/"
-                  className="text-sm font-semibold text-gray-800 hover:text-gray-900"
+                  className="text-m font-semibold text-gray-800 hover:text-gray-900"
                 >
                   Home
                 </NavLink>
@@ -37,7 +39,7 @@ function Header() {
               <li>
                 <NavLink
                   to="/about"
-                  className="text-sm font-semibold text-gray-800 hover:text-gray-900"
+                  className="text-m font-semibold text-gray-800 hover:text-gray-900"
                 >
                   About
                 </NavLink>
@@ -45,7 +47,7 @@ function Header() {
               <li>
                 <NavLink
                   to="/contact"
-                  className="text-sm font-semibold text-gray-800 hover:text-gray-900"
+                  className="text-m font-semibold text-gray-800 hover:text-gray-900"
                 >
                   Contact
                 </NavLink>
@@ -53,9 +55,17 @@ function Header() {
               <li>
                 <NavLink
                   to="/service"
-                  className="text-sm font-semibold text-gray-800 hover:text-gray-900"
+                  className="text-m font-semibold text-gray-800 hover:text-gray-900"
                 >
                   Service
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/feature"
+                  className="text-m font-semibold text-gray-800 hover:text-gray-900"
+                >
+                  Feature
                 </NavLink>
               </li>
             </ul>
@@ -63,7 +73,7 @@ function Header() {
           <div className="hidden lg:block">
             <NavLink
               to="/sign"
-              className="rounded-md dark:bg-violet-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+              className="rounded-md dark:bg-violet-600 px-3 py-2 text-m font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
             >
               Sign in
             </NavLink>
